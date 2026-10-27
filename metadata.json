@@ -1,0 +1,6 @@
+{
+  "name": "Tiệm Phở Hải: Chuyên Án Thiên Đường 3D",
+  "description": "Game 3D bán phở kết hợp cốt truyện trinh thám hình sự phá án hang ổ Thiên Đường cùng bài tập Hóa học Kết Nối Tri Thức.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

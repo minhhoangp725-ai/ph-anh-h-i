@@ -1,0 +1,33 @@
+@import "tailwindcss";
+
+@keyframes progressBarFill {
+  0% {
+    width: 0%;
+  }
+  100% {
+    width: 100%;
+  }
+}
+
+.animate-progress-fill {
+  animation: progressBarFill 2.4s cubic-bezier(0.4, 0, 0.2, 1) forwards;
+}
+
+.animate-progress-fill-wait {
+  animation: progressBarFill 2.2s linear forwards;
+}
+
+@keyframes celestialGlow {
+  0%, 100% {
+    filter: drop-shadow(0 0 15px rgba(251, 191, 36, 0.6));
+    transform: scale(1);
+  }
+  50% {
+    filter: drop-shadow(0 0 28px rgba(251, 191, 36, 0.95));
+    transform: scale(1.03);
+  }
+}
+
+.animate-celestial {
+  animation: celestialGlow 3s ease-in-out infinite;
+}
